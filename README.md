@@ -59,8 +59,8 @@ I think tsl is pretty program agnostic. i'm seeing that its the protocol that le
 https://en.wikipedia.org/wiki/OpenSSL
 
 TLS involves getting TLS certifications, can maybe involve a free service or software/library into our code that generates these certifications.
-https://letsencrypt.org/
-https://certbot.eff.org/
+- https://letsencrypt.org/
+- https://certbot.eff.org/
 
 How to make sure DNS is properly configured to ensure we can easily find our server from behind any network.
 I think DDNS will take care of this. if the DNS tables are updated, all clients will be able to find it when their DNS query returns the updated server IP.
